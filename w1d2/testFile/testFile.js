@@ -1,3 +1,5 @@
-var favouriteMeal = "BREAKFAST";
+var x = 2;
 
-console.log(favouriteMeal.toLowerCase());
+if (x === 2)
+  console.log("bob!");
+
