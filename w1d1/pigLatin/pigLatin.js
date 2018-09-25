@@ -7,16 +7,16 @@ var pigPhrase = "";
 
 for (var x = 2; x < oldPhrase.length; x++) {
 
-  pigWord = "";
-  workingWord = oldPhrase[x]
+  var pigWord = "";
+  var workingWord = oldPhrase[x];
 
   for (var i = 1; i < workingWord.length; i++) {
-    pigPhrase += workingWord[i]
+     pigPhrase += workingWord[i];
 
   }
-  pigPhrase += workingWord[0];
-  pigPhrase += "ay";
-  pigPhrase += " "
+   pigPhrase += workingWord[0];
+   pigPhrase += "ay";
+   pigPhrase += " ";
 }
 
 console.log(pigPhrase);
